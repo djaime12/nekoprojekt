@@ -1,0 +1,56 @@
+body {
+   	background-color: #000000;
+    background-image: url(http://www.stephanbodzin.com/wp-content/uploads/2015/03/Artwork1920x1080_1.1.jpg);
+    background-position: center top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+	position: fixed;
+	background-color: #E81C1C;
+	width: 100%;
+	height: 100px;
+	border-radius: 20px;
+	text-align: left;
+	font-family:'Notable', sans-serif;
+	top: 0px;
+
+}
+
+
+.menu{
+    font-size: 40px;
+   	float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+}
+
+.contenedor{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:no-wrap;
+  align-items:stretch;
+  width:50%;
+  height:300px;	
+
+}
+
+.item{
+  margin-top: 200px;
+  border:1px solid #fff;
+  flex-grow:1;
+  text-align:center;
+}
+
+
